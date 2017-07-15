@@ -30,6 +30,7 @@ then
   # and trigger one reset by showing the GPU status
   ${smi} -pm 0
   ${smi}
+  exit 0
 fi
 
 # get PCI bus ids of Nvidia cards and convert from hexadecimal to decimal. watch out for the falling toothpicks.
